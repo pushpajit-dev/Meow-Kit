@@ -1,0 +1,67 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Meow Kit",
+  "version": "1.2.0",
+  "identifier": "com.noishixxen.meowkit",
+  "build": {
+    "frontendDist": "../desktop-ui"
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEYwM0Q1RDAxNzg3RjlBMkIKUldRcm1uOTRBVjA5OEFFNHhRV3hkamhPdUhLdDJyeEF5bVNJWFJIeUxPTDU0T1VoYVQyaDhOZ2YK",
+      "endpoints": []
+    }
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "Meow Kit - Ai powered Media Studio",
+        "width": 1280,
+        "height": 860,
+        "minWidth": 800,
+        "minHeight": 600,
+        "resizable": true,
+        "dragDropEnabled": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "createUpdaterArtifacts": false,
+    "publisher": "NoishiXzen",
+    "copyright": "© 2026 NoishiXzen",
+    "shortDescription": "Meow Kit",
+    "longDescription": "Meow Kit — Ai powered Media Studio. Developed by NoishiXzen.",
+    "licenseFile": "./windows/terms.txt",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "externalBin": [
+      "binaries/meowkit-server",
+      "binaries/ffmpeg",
+      "binaries/ffprobe"
+    ],
+    "macOS": {
+      "minimumSystemVersion": "10.15"
+    },
+    "windows": {
+      "nsis": {
+        "installerHooks": "./windows/hooks.nsi",
+        "installMode": "currentUser",
+        "installerIcon": "icons/icon.ico",
+        "uninstallerIcon": "icons/icon.ico",
+        "sidebarImage": "./windows/sidebar.bmp",
+        "headerImage": "./windows/header.bmp"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+MEOW KIT - AI POWERED MEDIA STUDIO
+END USER LICENSE AGREEMENT & TERMS OF SERVICE
+
+Last Updated: September 2026
+
+PLEASE READ THIS END USER LICENSE AGREEMENT ("AGREEMENT") CAREFULLY BEFORE INSTALLING OR USING MEOW KIT. BY INSTALLING, COPYING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS AGREEMENT.
+
+1. GRANT OF LICENSE
+Meow Kit ("Software"), developed by NoishiXzen, is provided to you as a free, local-first artificial intelligence media studio for personal, creative, and commercial use. You are granted a non-exclusive, revocable, non-transferable license to install and use Meow Kit on your personal computing devices.
+
+2. LOCAL-FIRST & PRIVACY COMMITMENT
+- All media processing, AI inference (upscaling, background removal, object erasing, restoration, stem splitting, mastering), and file manipulations are executed 100% locally on your own computer hardware.
+- Meow Kit does NOT upload your personal photos, audio recordings, or videos to any remote cloud server or external third-party service.
+- Your data remains entirely private and confidential on your local storage.
+
+3. OPEN-SOURCE AI MODELS & ATTRIBUTION
+Meow Kit leverages open-source AI models under their respective permissive open-source licenses (MIT, Apache 2.0, BSD, Creative Commons):
+- Real-ESRGAN (Xintao Wang et al. - BSD 3-Clause)
+- BiRefNet & RMBG-1.4 (BRIA AI / ZhengPeng Shen et al. - Open Model Licenses)
+- LaMa Inpainting (Carve / Samsung AI - Apache 2.0)
+- DDColor (Alibaba DAMO Academy - Apache 2.0)
+- GFPGAN / CodeFormer (Tencent ARC / SCUNet - Apache 2.0 / BSD)
+- MDX-Net / UVR (Audio Stem Separation - MIT)
+- FFmpeg (LGPL / GPL)
+
+4. PERMITTED & RESPONSIBLE USE
+You agree that you will not use Meow Kit to:
+- Generate, alter, or distribute illegal, defamatory, harmful, or non-consensual deepfake media.
+- Violate the intellectual property, privacy, or publicity rights of any third party.
+- Circumvent any applicable local, national, or international laws.
+
+5. DISCLAIMER OF WARRANTIES
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE DEVELOPERS (NOISHIXZEN) BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+6. CONTACT & SUPPORT
+For inquiries, bug reports, and updates:
+Developer: NoishiXzen
+Contact: noishixzen@gmail.com
+Website: https://aivorygen.netlify.app
+
+Copyright (c) 2026 NoishiXzen. All rights reserved.
